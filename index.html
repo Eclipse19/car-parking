@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <div class="main">
+        <ul class='nav-bar'>
+            <li class='logo'><a href='#'><img src='./images/bike2.png'/></a></li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="./Auth.html">Login/SignUp</a></li>
+                <li><a href="./admin.html">Admin</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+</header>
+   <!-- 
+    city elements
+    -->
+    <div class="city-line">
+        <div class="city">
+          <img src="./images/taj-mahal.png" alt="City 1" class="city_img">
+          <p class="city_para">Agara</p>
+        </div>
+        <div class="city">
+          <img src="./images/mahabodhi.png" alt="City 2" class="city_img">
+          <p class="city_para">Chennai</p>
+        </div>
+        <div class="city">
+          <img src="./images/golden-gate-bridge.png" alt="City 3" class="city_img">
+          <p class="city_para">Kolkata</p>
+        </div>
+        <div class="city">
+          <img src="./images/gate-of-india.png" alt="City 4" class="city_img">
+          <p class="city_para">Delhi</p>
+        </div>
+        <div class="city">
+          <img src="./images/gate-of-india (1).png" alt="City 5" class="city_img">
+          <p class="city_para">Mumbai</p>
+        </div>
+      </div>
+   <!-- 
+     popular places
+    -->
+    <div class="city-line">
+        <div class="city">
+          <img src="./images/airport.png" alt="City 1" class="city_img">
+          <p class="city_para">Airport</p>
+        </div>
+        <div class="city">
+          <img src="./images/bus-stop.png" alt="City 2" class="city_img">
+          <p class="city_para">BusStop</p>
+        </div>
+        <div class="city">
+          <img src="./images/train.png" alt="City 3" class="city_img">
+          <p class="city_para">Train</p>
+        </div>
+        <div class="city">
+          <img src="./images/ship.png" alt="City 4" class="city_img">
+          <p class="city_para">Ship</p>
+        </div>
+        <div class="city">
+          <img src="./images/retail.png" alt="City 5" class="city_img">
+          <p class="city_para">Mumbai</p>
+        </div>
+      </div>
+
+      <!-- 
+         details form 
+       -->
+       <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="vehicle-number">Vehicle Number:</label>
+          <input type="text" id="vehicle-number" name="vehicle-number" required>
+        </div>
+        <div class="form-group">
+          <label for="vehicle-type">Vehicle Type:</label>
+          <input type="text" id="vehicle-type" name="vehicle-type" required>
+        </div>
+        <div class="form-group">
+          <label for="gmail-id">Gmail ID:</label>
+          <input type="email" id="gmail-id" name="gmail-id" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-number">Contact Number:</label>
+          <input type="tel" id="contact-number" name="contact-number" required>
+        </div>
+        <div class="form-group">
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required>
+        </div>
+        <div class="form-group">
+          <label for="place-name">Place Name:</label>
+          <input type="text" id="place-name" name="place-name" required>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+
+      <!-- 
+        hero section
+       -->
+       <section class="hero">
+        <div class="image-div">
+          <img src="./images/car2.png" alt="Hero Image">
+        </div>
+        <div class="content-div">
+          <h2>Four wheeler Parking Partner</h2>
+          <h3>Experience safety and security </h3>
+          <p>Indulge in a memorable stay at our hotel, offering top-notch amenities and exceptional service. Enjoy the perfect blend of luxury and comfort.</p>
+          <button class="booking-btn">Book Now</button>
+        </div>
+      </section>
+       <section class="hero">
+        <div class="image-div">
+          <img src="./images/bike2.png" alt="Hero Image">
+        </div>
+        <div class="content-div">
+          <h2>Two wheeler Parking Partner</h2>
+          <h3>Experience safety and security </h3>
+          <p>Indulge in a memorable stay at our hotel, offering top-notch amenities and exceptional service. Enjoy the perfect blend of luxury and comfort.</p>
+          <button class="booking-btn">Book Now</button>
+        </div>
+      </section>
+   
+
+       <!-- 
+        footer section
+        -->
+        <footer class="footer">
+            <div class="footer-details">
+              <div class="logo-text">
+                <h2>Parking Partner</h2>
+                <p>All rights reserved &copy; 2023 Parking Partner</p>
+              </div>
+              <div class="social-media">
+                <a href="#"><img src="./images/icons8-instagram-32.png" alt="Instagram"></a>
+                <a href="#"><img src="./images/icons8-gmail-50.png" alt="Gmail"></a>
+                <a href="#"><img src="./images/icons8-twitter-50.png" alt="Twitter"></a>
+                <a href="#"><img src="./images/icons8-google-maps-old-50.png" alt="Google Map"></a>
+                <a href=""><img src="./images/icons8-facebook-50.png" alt="Facebook"></a>
+              </div>
+            </div>
+            <div class="contact-form">
+              <h3 >Contact Us</h3>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input class="input" type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input class="input" type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea class="textarea" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+              </form>
+            </div>
+          </footer>
+    </div>
+</body>
+</html>
